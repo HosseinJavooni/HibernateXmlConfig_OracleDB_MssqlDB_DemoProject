@@ -7,7 +7,7 @@
         <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
         <property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=forhibernatetest;encrypt=true;trustServerCertificate=true;</property>
         <property name="connection.username">sa</property>
-        <property name="connection.password">sa@Password</property>
+        <property name="connection.password">H@ghighat20563</property>
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">10</property>
         <!-- Echo the SQL to stdout -->

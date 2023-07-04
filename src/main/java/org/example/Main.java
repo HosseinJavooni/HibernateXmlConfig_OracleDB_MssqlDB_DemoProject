@@ -9,7 +9,7 @@ import org.hibernate.Transaction;
 public class Main {
     public static void main(String[] args) {
         var person = new Person();
-        person.setAge(50);
+        person.setAge(789);
         person.setLastName("Jabani");
         person.setFirstName("Hossein");
         Transaction transaction = null;
@@ -19,7 +19,7 @@ public class Main {
             transaction = session.beginTransaction();
 
             // save person object
-            session.save(person);
+            session.persist(person);
 
             // commit transaction
             transaction.commit();
